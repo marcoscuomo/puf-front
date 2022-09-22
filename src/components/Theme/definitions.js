@@ -17,6 +17,14 @@ const colors = {
   ...brandColors,
 }
 
+const fontSizes = {
+  small: '0.8rem',
+  medium: '1rem',
+  large: '2rem',
+
+}
+
 export const definitions = {
   colors,
+  fontSizes,
 }
