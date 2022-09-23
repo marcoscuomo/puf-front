@@ -1,3 +1,11 @@
+export const theme = prop => value => props =>  props.theme[prop][value] || value;
+
+export const th = {
+  space: theme('spaces'),
+  size: theme('fontSizes'),
+  color: theme('colors'),
+}
+
 
 export const background = props =>
   props.bg && `background: ${props.theme.colors[props.bg]};`
